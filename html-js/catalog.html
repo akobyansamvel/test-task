@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог книг</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="timer">
+        <p>До конца акции осталось: <span id="countdown"></span></p>
+    </div>
+
+    <div class="filters">
+        <button id="filter-all">Все книги</button>
+        <button id="filter-more-than-1500">Книги дороже 1500₽</button>
+        <button id="filter-less-than-2500">Книги дешевле 2500₽</button>
+    </div>
+
+    <div class="book-catalog" id="book-catalog">
+    </div>
+
+    <div class="cart">
+        <h2>Корзина</h2>
+        <ul id="cart-items"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
