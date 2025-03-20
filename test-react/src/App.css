@@ -1,0 +1,64 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.books-container {
+  flex: 3;
+  padding-right: 320px;
+}
+
+.cart-container {
+  position: fixed;
+  right: 0;
+  width: 300px;
+  height: calc(100vh - 60px);
+  padding: 20px;
+}
+
+.cart h2 {
+  text-align: center;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.add-to-cart-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  font-size: 1em;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #218838;
+}
+
+.add-to-cart-btn:active {
+  transform: scale(0.95);
+}
